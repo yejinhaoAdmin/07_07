@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace务必与接口路径和名字相一致 -->
+<mapper namespace="demo.tb_myROLEDAO">
+	<!-- resultMap:结果映射 -->
+	<resultMap id="tb_myROLEResultMap" type="demo.tb_myROLE">
+		<!-- 嵌套结果 -->
+		    <id property="t_id" column="t_id" />
+			<result property="t_rolename" column="t_rolename" />
+			<result property="t_demo" column="t_demo" />
+		<!-- 多表所有列映射为实体类成员属性 -->
+		
+		<!-- 多对多 -用户 -->
+		<collection property="myusers" javaType="java.util.List"
+			ofType="demo.tb_myuser">
+			<!-- 映射用户的所有列 -->
+			<id column="id" property="id" />
+		<result column="username" property="username" />
+		<result column="pwd" property="pwd" />
+		<result column="realname" property="realname" />
+		</collection>
+	</resultMap>
+
+	<!-- 使用SQL语句查询角色名称为’super管理员’的用户id和姓名-->
+	<select id="selectidandname" resultMap="tb_myROLEResultMap" >
+		 select 
+            * 
+        from 
+            tb_myuser p
+        inner join  
+            t_user_role m
+        on
+            p.id=m.userid
+        inner join
+            tb_myROLE a
+        on
+            m.userid=a.t_id
+		where a.t_rolename=#{t_rolename}
+	</select>
+	
+	<!-- 使用SQL语句查询角色id为’3’的用户姓名和其真实姓名-->
+	<select id="selectid" resultMap="tb_myROLEResultMap" >
+		select 
+            * 
+        from 
+            tb_myuser p
+        inner join  
+            t_user_role m
+        on
+            p.id=m.userid
+        inner join
+            tb_myROLE a
+        on
+            m.userid=a.t_id
+		where a.t_id=#{t_id}
+	</select>
+	
+<!--  使用SQL语句查询角色id不为’3’的用户姓名和其真实姓名-->
+	<select id="selectnotid" resultMap="tb_myROLEResultMap" >
+		select 
+            * 
+        from 
+            tb_myuser p
+        inner join  
+            t_user_role m
+        on
+            p.id=m.userid
+        inner join
+            tb_myROLE a
+        on
+            m.userid=a.t_id
+		where a.t_id!=#{t_id}
+	</select>
+
+<!--  查询拥有角色的用户人数-->
+	<select id="selectcount" resultType="int" >
+	SELECT
+   count(*)
+  FROM tb_myuser
+  WHERE id in (
+   SELECT userid
+   FROM t_user_role
+  )
+	</select>
+
+<!--查询拥有角色超过两个的用户信息-->
+	<select id="select" resultMap="tb_myROLEResultMap" >
+	SELECT
+   t1.*
+  FROM tb_myuser t1
+  WHERE id in (
+   SELECT userid
+   FROM t_user_role
+   WHERE (
+    SELECT count(*)
+    FROM t_user_role
+    GROUP BY userid
+   )>2
+  ) 
+	</select>
+
+</mapper>
+
+
+
+
+
+
+

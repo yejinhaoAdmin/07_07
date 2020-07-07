@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<!-- 多对多实体类 -->
+		<typeAlias alias="mytb_myuser" type="demo.tb_myuser" />
+		<typeAlias alias="mytb_myROLE" type="demo.tb_myROLE" />
+	</typeAliases>
+
+	<!-- 直接使用JDBC连接参数 -->
+	<environments default="development">
+		<environment id="development">
+			<!-- 新增、修改和删除必须使用Sqlsession.commit()方法提交 -->
+			<transactionManager type="JDBC" />
+			<dataSource type="POOLED">
+				<property name="driver" value="oracle.jdbc.OracleDriver" />
+				<property name="url" value="jdbc:oracle:thin:@localhost:1521:orcl" />
+				<property name="username" value="scott" />
+				<property name="password" value="123" />
+			</dataSource>
+		</environment>
+	</environments>
+
+	<mappers>
+		<!-- 映射用户表和房产多对多 -->
+		<mapper resource="demo/tb_myROLEDAOMapper.xml" />
+
+
+
+	</mappers>
+</configuration>

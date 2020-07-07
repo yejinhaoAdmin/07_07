@@ -1,0 +1,147 @@
+2020-07-03 11:57:09,798 [main] DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-07-03 11:57:10,034 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 11:57:10,034 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 11:57:10,035 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 11:57:10,035 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 11:58:00,314 [main] DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-07-03 11:58:00,464 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 11:58:00,464 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 11:58:00,466 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 11:58:00,466 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 11:58:59,685 [main] DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-07-03 11:58:59,818 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 11:58:59,819 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 11:58:59,820 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 11:58:59,820 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 11:58:59,895 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Opening JDBC Connection
+2020-07-03 11:59:00,057 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - Created connection 1127619172.
+2020-07-03 11:59:00,057 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@43361a64]
+2020-07-03 11:59:00,060 [main] DEBUG [demo.tb_myROLEDAO.selectidandname] - ==>  Preparing: select * from tb_myuser p inner join t_user_role m on p.id=m.userid inner join tb_myROLE a on m.userid=a.t_id where a.t_rolename=? 
+2020-07-03 11:59:00,133 [main] DEBUG [demo.tb_myROLEDAO.selectidandname] - ==> Parameters: super管理员(String)
+2020-07-03 11:59:00,161 [main] DEBUG [demo.tb_myROLEDAO.selectidandname] - <==      Total: 1
+2020-07-03 11:59:00,161 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@43361a64]
+2020-07-03 11:59:00,163 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@43361a64]
+2020-07-03 11:59:00,163 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - Returned connection 1127619172 to pool.
+2020-07-03 11:59:26,984 [main] DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-07-03 11:59:27,112 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 11:59:27,112 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 11:59:27,112 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 11:59:27,112 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 11:59:27,194 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Opening JDBC Connection
+2020-07-03 11:59:27,346 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - Created connection 1127619172.
+2020-07-03 11:59:27,346 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@43361a64]
+2020-07-03 11:59:27,348 [main] DEBUG [demo.tb_myROLEDAO.selectidandname] - ==>  Preparing: select * from tb_myuser p inner join t_user_role m on p.id=m.userid inner join tb_myROLE a on m.userid=a.t_id where a.t_rolename=? 
+2020-07-03 11:59:27,421 [main] DEBUG [demo.tb_myROLEDAO.selectidandname] - ==> Parameters: super管理员(String)
+2020-07-03 11:59:27,445 [main] DEBUG [demo.tb_myROLEDAO.selectidandname] - <==      Total: 1
+2020-07-03 11:59:27,445 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@43361a64]
+2020-07-03 11:59:27,446 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@43361a64]
+2020-07-03 11:59:27,446 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - Returned connection 1127619172 to pool.
+2020-07-03 17:19:54,672 [main] DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-07-03 17:19:55,943 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:19:55,944 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:19:55,946 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:19:55,946 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:19:56,140 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Opening JDBC Connection
+2020-07-03 17:19:56,438 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - Created connection 352239029.
+2020-07-03 17:19:56,438 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@14febdb5]
+2020-07-03 17:19:56,481 [main] DEBUG [demo.tb_myROLEDAO.selectidandname] - ==>  Preparing: select * from tb_myuser p inner join t_user_role m on p.id=m.userid inner join tb_myROLE a on m.userid=a.t_id where a.t_rolename=? 
+2020-07-03 17:19:56,651 [main] DEBUG [demo.tb_myROLEDAO.selectidandname] - ==> Parameters: super管理员(String)
+2020-07-03 17:19:56,723 [main] DEBUG [demo.tb_myROLEDAO.selectidandname] - <==      Total: 1
+2020-07-03 17:19:56,723 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@14febdb5]
+2020-07-03 17:19:56,725 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@14febdb5]
+2020-07-03 17:19:56,725 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - Returned connection 352239029 to pool.
+2020-07-03 17:22:30,073 [main] DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-07-03 17:22:30,266 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:22:30,267 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:22:30,268 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:22:30,268 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:22:30,384 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Opening JDBC Connection
+2020-07-03 17:22:30,608 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - Created connection 1127619172.
+2020-07-03 17:22:30,608 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@43361a64]
+2020-07-03 17:22:30,611 [main] DEBUG [demo.tb_myROLEDAO.selectidandname] - ==>  Preparing: select * from tb_myuser p inner join t_user_role m on p.id=m.userid inner join tb_myROLE a on m.userid=a.t_id where a.t_rolename=? 
+2020-07-03 17:22:53,375 [main] DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-07-03 17:22:53,570 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:22:53,571 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:22:53,573 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:22:53,574 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:22:53,678 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Opening JDBC Connection
+2020-07-03 17:22:53,906 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - Created connection 1127619172.
+2020-07-03 17:22:53,906 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@43361a64]
+2020-07-03 17:22:53,909 [main] DEBUG [demo.tb_myROLEDAO.selectid] - ==>  Preparing: select * from tb_myuser p inner join t_user_role m on p.id=m.userid inner join tb_myROLE a on m.userid=a.t_id where a.t_id=? 
+2020-07-03 17:22:54,011 [main] DEBUG [demo.tb_myROLEDAO.selectid] - ==> Parameters: 3(Integer)
+2020-07-03 17:22:54,055 [main] DEBUG [demo.tb_myROLEDAO.selectid] - <==      Total: 1
+2020-07-03 17:22:54,056 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@43361a64]
+2020-07-03 17:22:54,056 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@43361a64]
+2020-07-03 17:22:54,057 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - Returned connection 1127619172 to pool.
+2020-07-03 17:30:45,100 [main] DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-07-03 17:30:45,733 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:30:45,733 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:30:45,735 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:30:45,735 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:30:45,810 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Opening JDBC Connection
+2020-07-03 17:30:45,991 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - Created connection 1616429271.
+2020-07-03 17:30:45,991 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@6058c0d7]
+2020-07-03 17:30:45,994 [main] DEBUG [demo.tb_myROLEDAO.selectnotid] - ==>  Preparing: select * from tb_myuser p inner join t_user_role m on p.id=m.userid inner join tb_myROLE a on m.userid=a.t_id where a.t_id!=? 
+2020-07-03 17:30:46,071 [main] DEBUG [demo.tb_myROLEDAO.selectnotid] - ==> Parameters: 3(Integer)
+2020-07-03 17:30:46,101 [main] DEBUG [demo.tb_myROLEDAO.selectnotid] - <==      Total: 2
+2020-07-03 17:32:40,948 [main] DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-07-03 17:32:41,071 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:32:41,071 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:32:41,071 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:32:41,072 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:32:42,197 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Opening JDBC Connection
+2020-07-03 17:32:42,350 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - Created connection 1616429271.
+2020-07-03 17:32:42,352 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@6058c0d7]
+2020-07-03 17:32:42,354 [main] DEBUG [demo.tb_myROLEDAO.selectnotid] - ==>  Preparing: select * from tb_myuser p inner join t_user_role m on p.id=m.userid inner join tb_myROLE a on m.userid=a.t_id where a.t_id!=? 
+2020-07-03 17:32:42,424 [main] DEBUG [demo.tb_myROLEDAO.selectnotid] - ==> Parameters: 3(Integer)
+2020-07-03 17:32:42,450 [main] DEBUG [demo.tb_myROLEDAO.selectnotid] - <==      Total: 2
+2020-07-03 17:32:42,451 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@6058c0d7]
+2020-07-03 17:32:42,451 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@6058c0d7]
+2020-07-03 17:32:42,452 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - Returned connection 1616429271 to pool.
+2020-07-03 17:35:43,929 [main] DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-07-03 17:35:44,054 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:35:44,055 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:35:44,055 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:35:44,055 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:35:44,136 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Opening JDBC Connection
+2020-07-03 17:35:44,288 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - Created connection 1658623147.
+2020-07-03 17:35:44,289 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@62dc94ab]
+2020-07-03 17:35:44,291 [main] DEBUG [demo.tb_myROLEDAO.selectcount] - ==>  Preparing: SELECT count(*) FROM tb_myuser WHERE id in ( SELECT userid FROM t_user_role ) 
+2020-07-03 17:35:44,364 [main] DEBUG [demo.tb_myROLEDAO.selectcount] - ==> Parameters: 
+2020-07-03 17:35:44,387 [main] DEBUG [demo.tb_myROLEDAO.selectcount] - <==      Total: 1
+2020-07-03 17:37:11,746 [main] DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-07-03 17:37:11,880 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:37:11,880 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:37:11,880 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:37:11,882 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:37:11,965 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Opening JDBC Connection
+2020-07-03 17:37:12,119 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - Created connection 1658623147.
+2020-07-03 17:37:12,119 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@62dc94ab]
+2020-07-03 17:37:12,121 [main] DEBUG [demo.tb_myROLEDAO.selectcount] - ==>  Preparing: SELECT count(*) FROM tb_myuser WHERE id in ( SELECT userid FROM t_user_role ) 
+2020-07-03 17:37:12,194 [main] DEBUG [demo.tb_myROLEDAO.selectcount] - ==> Parameters: 
+2020-07-03 17:37:12,215 [main] DEBUG [demo.tb_myROLEDAO.selectcount] - <==      Total: 1
+2020-07-03 17:37:53,310 [main] DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-07-03 17:37:53,447 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:37:53,448 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:37:53,448 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:37:53,448 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:37:53,534 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Opening JDBC Connection
+2020-07-03 17:37:53,693 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - Created connection 1658623147.
+2020-07-03 17:37:53,693 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@62dc94ab]
+2020-07-03 17:37:53,696 [main] DEBUG [demo.tb_myROLEDAO.selectcount] - ==>  Preparing: SELECT count(*) FROM tb_myuser WHERE id in ( SELECT userid FROM t_user_role ) 
+2020-07-03 17:37:53,768 [main] DEBUG [demo.tb_myROLEDAO.selectcount] - ==> Parameters: 
+2020-07-03 17:37:53,789 [main] DEBUG [demo.tb_myROLEDAO.selectcount] - <==      Total: 1
+2020-07-03 17:38:34,827 [main] DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-07-03 17:38:34,965 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:38:34,965 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:38:34,966 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:38:34,966 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2020-07-03 17:38:35,060 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Opening JDBC Connection
+2020-07-03 17:38:35,217 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - Created connection 1658623147.
+2020-07-03 17:38:35,218 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@62dc94ab]
+2020-07-03 17:38:35,219 [main] DEBUG [demo.tb_myROLEDAO.selectcount] - ==>  Preparing: SELECT count(*) FROM tb_myuser WHERE id in ( SELECT userid FROM t_user_role ) 
+2020-07-03 17:38:35,288 [main] DEBUG [demo.tb_myROLEDAO.selectcount] - ==> Parameters: 
+2020-07-03 17:38:35,310 [main] DEBUG [demo.tb_myROLEDAO.selectcount] - <==      Total: 1
+2020-07-03 17:38:35,311 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@62dc94ab]
+2020-07-03 17:38:35,311 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@62dc94ab]
+2020-07-03 17:38:35,313 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - Returned connection 1658623147 to pool.
